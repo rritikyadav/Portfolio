@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return (
-      <div className="p-6 flex justify-between items-center bg-gray-800 shadow-md">
+      <div className=" sticky top-0 p-6 flex justify-between items-center bg-gray-800 shadow-md">
         <h1 className="text-2xl font-bold">Ritik Portfolio</h1>
         <ul className="flex space-x-6">
           <li><a href="#about" className="hover:text-blue-400">About</a></li>
@@ -14,4 +14,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
